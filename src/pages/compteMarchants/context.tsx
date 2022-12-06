@@ -58,9 +58,10 @@ export default function Context() {
                   </button>
 
                   <div className="grid w-full grid-cols-1 items-start gap-y-8 gap-x-6 sm:grid-cols-12 lg:gap-x-8">
-                    
+                 
                     <div className="sm:col-span-8 lg:col-span-7">
-                      <h2 className="text-2xl font-bold text-gray-900 sm:pr-12"> <h3 id="information-heading" className="text-gray-900 text-lg">Nom de la Company : </h3>{transaction.company}</h2>
+                    <h1  className="text-black font-black m-4 text-xl flex justify-center">Details Compte Marchants </h1>
+                      <h2 className="text-2xl font-bold text-gray-900 "> <h3  className="text-gray-900 text-lg">Nom de la Company : </h3>{transaction.company}</h2>
 
                       <section aria-labelledby="information-heading" className="mt-3">
                         <h3 id="information-heading" className="sr-only">
